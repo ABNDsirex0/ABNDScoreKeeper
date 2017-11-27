@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">NG Score Keeper</string>
+    <string name="team_a_name">Team A</string>
+    <string name="team_b_name">Team B</string>
+    <string name="reset">reset</string>
+    <string name="description_red_card_icon">Red card icon</string>
+    <string name="description_yellow_card_button">Yellow card button</string>
+    <string name="description_goal_button">Goal button</string>
+</resources>
