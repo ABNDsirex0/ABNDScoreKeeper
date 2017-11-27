@@ -6,4 +6,9 @@
     <string name="description_red_card_icon">Red card icon</string>
     <string name="description_yellow_card_button">Yellow card button</string>
     <string name="description_goal_button">Goal button</string>
+    <string name="goal">Goal!</string>
+    <string name="score_separator">-</string>
+    <string name="team_a">team AAA</string>
+    <string name="team_b">team BBB</string>
+    <string name="add_sign">+</string>
 </resources>
