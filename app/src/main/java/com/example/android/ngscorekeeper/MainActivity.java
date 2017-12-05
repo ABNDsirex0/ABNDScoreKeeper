@@ -34,7 +34,7 @@ public class MainActivity extends AppCompatActivity {
      * Display sore for team A
      */
     public void displayScoreA() {
-        TextView scoreView = (TextView) findViewById(R.id.text_score_a);
+        TextView scoreView = findViewById(R.id.text_score_a);
         scoreView.setText(String.valueOf(scoreA));
     }
 
@@ -42,7 +42,7 @@ public class MainActivity extends AppCompatActivity {
      * Display score for team B
      */
     public void displayScoreB() {
-        TextView scoreView = (TextView) findViewById(R.id.text_score_b);
+        TextView scoreView = findViewById(R.id.text_score_b);
         scoreView.setText(String.valueOf(scoreB));
     }
 
@@ -50,7 +50,7 @@ public class MainActivity extends AppCompatActivity {
      * Display counter for team A yellow cards
      */
     public void displayYellowA() {
-        TextView scoreView = (TextView) findViewById(R.id.yellow_score_a);
+        TextView scoreView = findViewById(R.id.yellow_score_a);
         scoreView.setText(String.valueOf(cardYellowA));
     }
 
@@ -58,7 +58,7 @@ public class MainActivity extends AppCompatActivity {
      * Display counter for team B yellow cards
      */
     public void displayYellowB() {
-        TextView scoreView = (TextView) findViewById(R.id.yellow_score_b);
+        TextView scoreView = findViewById(R.id.yellow_score_b);
         scoreView.setText(String.valueOf(cardYellowB));
     }
 
@@ -66,7 +66,7 @@ public class MainActivity extends AppCompatActivity {
      * Display counter for team B yellow cards
      */
     public void displayRedA() {
-        TextView scoreView = (TextView) findViewById(R.id.red_score_a);
+        TextView scoreView = findViewById(R.id.red_score_a);
         scoreView.setText(String.valueOf(cardRedA));
     }
 
@@ -74,7 +74,7 @@ public class MainActivity extends AppCompatActivity {
      * Display counter for team B yellow cards
      */
     public void displayRedB() {
-        TextView scoreView = (TextView) findViewById(R.id.red_score_b);
+        TextView scoreView = findViewById(R.id.red_score_b);
         scoreView.setText(String.valueOf(cardRedB));
     }
 
